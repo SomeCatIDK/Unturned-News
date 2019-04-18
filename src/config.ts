@@ -1,7 +1,7 @@
 export default {
     MySQL: {
         address: "localhost",
-        database: "unturned-changelog",
+        database: "unturned-news",
         password: "toor",
         port: 3306,
         table_prefix: "u_",

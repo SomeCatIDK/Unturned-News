@@ -1,5 +1,5 @@
 {
-  "name": "unturned-changelog",
+  "name": "unturned-news",
   "version": "1.0.0",
   "description": "A service that can be configured to forward webhooks to Discord whenever Unturned is updated or a blogpost is released.",
   "main": "src/index.ts",
@@ -13,16 +13,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SomeCatIDK/Unturned-Changelog.git"
+    "url": "git+https://github.com/SomeCatIDK/Unturned-News.git"
   },
   "author": "SomeCatIDK",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SomeCatIDK/Unturned-Changelog/issues"
+    "url": "https://github.com/SomeCatIDK/Unturned-News/issues"
   },
-  "homepage": "https://github.com/SomeCatIDK/Unturned-Changelog#readme",
+  "homepage": "https://github.com/SomeCatIDK/Unturned-News#readme",
   "devDependencies": {
     "@types/sqlstring": "^2.2.1",
+    "@types/xml2js": "^0.4.4",
     "nodemon": "^1.18.11",
     "ts-node": "^8.1.0",
     "tslint": "^5.16.0",
