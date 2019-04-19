@@ -2,6 +2,8 @@
 
 Unturned News Service is a small service that simply tracks the SDG blog, and in the future it will track the Steam news page, and posts a webhook to Discord everytime a new blog or news item is posted.
 
+![Example Image](https://github.com/SomeCatIDK/Unturned-News/blob/master/resources/example.png?raw=true)
+
 ### Requirements: 
 - Latest version of [Node.JS](https://github.com/nodejs/node) installed.
 - Latest version of [git](https://github.com/git/git) installed.
