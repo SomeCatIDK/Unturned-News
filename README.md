@@ -2,6 +2,8 @@
 
 Unturned News Service is a small service that simply tracks the SDG blog, and in the future it will track the Steam news page, and posts a webhook to Discord everytime a new blog or news item is posted.
 
+I would suggest reading this post to learn how to create webhooks for Discord: https://github.com/SomeCatIDK/Unturned-News
+
 ![Example Image](https://github.com/SomeCatIDK/Unturned-News/blob/master/resources/example.png?raw=true)
 
 ### Requirements: 
@@ -52,6 +54,8 @@ export default {
 ```
 
 To add a webhook to use for the blogposts, add a string into the `blogpost_webhooks` array using the `"` marks in the following style: `"<WEBHOOK_ID>/<WEBHOOK_TOKEN>"`
+
+Note that your webhook ID and webhook token are the last two routing paths of the url, so that the following url: `https://discordapp.com/api/webhooks/1234567890/abcdefghijklmnopqrstuvwxyz1234567890` would look like this: `1234567890/abcdefghijklmnopqrstuvwxyz1234567890` in the config.
 
 Here's an example after adding a fake webhooks:
 
